@@ -293,8 +293,30 @@ img{
     width: 1700px;
     margin-left: 100px;
     margin-top: 70px;
-
+    transition: 0,5s ease;
+    opacity: 1;
 }
+.bildtext {
+    transition: 0.5s ease;
+    grid-column: 8;
+     grid-row: 7;
+     margin-left: 400px ;
+     margin-top: -650px;
+     opacity: 1;
+     font-size: 60px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     opacity: 0;
+
+
+     
+   }
+   
+.bilden:hover .bildtext {
+    opacity: 1;
+}
+ 
+    
+
 .klicklank {
     border: none;
     grid-column: 2;
@@ -303,7 +325,7 @@ img{
     margin-left: -350px;
     margin-top: 40px;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .klicklank2 {
     border: none;
@@ -312,7 +334,7 @@ img{
     grid-row: 12;
     margin-top: 40px;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .klicklank3 {
     border: none;
@@ -366,7 +388,7 @@ margin-left: -330px;
     font-size: 60px;
     margin-top: -60px;
     margin-left: -580px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
     
 }
 .kategori2 {
@@ -374,22 +396,21 @@ margin-left: -330px;
     grid-row: 16;
     margin-left: 370px;
     font-size: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .linktext3 {
     color: black;
     margin-top: -20px;
     margin-left: 170px;
     font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .linktext4 {
     color: black;
     margin-left: 380px;
     margin-top: -20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
 
 
 
